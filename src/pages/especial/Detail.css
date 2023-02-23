@@ -1,0 +1,67 @@
+
+
+h1{
+    text-align: center;
+}
+
+@media screen and (min-width: 992px){
+    .sinopse span{   
+        position: absolute;
+        margin-left: 4rem;
+        margin-top: 14.7rem;
+        width: 38rem;
+ 
+    }
+    .button button{
+        position: absolute;
+        margin-top: 29rem;
+        margin-left: 19rem;
+        height: 2rem;
+        width: 10rem;
+        border-bottom: #3C6255;
+        color: #fff;
+        background-color: #3C6255;
+        border-radius: 1rem;
+    }
+    .title_secundario{
+        position: absolute;
+        margin-top: 11rem;
+        margin-left: 7rem;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 992px){
+    .button{
+        text-align: center;
+    }
+    .button button{
+        border-bottom: #3C6255;
+        color: #fff;
+        background-color: #3C6255;
+        margin-top: 1.3rem;
+        width: 6rem;
+        height: 2rem;
+        border-radius: 1rem;
+    }
+}
+
+@media screen and (max-width: 576px)  {
+    .button{
+        text-align: center;
+    }
+    .button button{
+        border-bottom: #3C6255;
+        color: #fff;
+        background-color: #3C6255;
+        margin-top: 1.3rem;
+        width: 6rem;
+        height: 2rem;
+        border-radius: 1rem;
+    }
+    .imagem img{
+        margin-bottom: 1rem;
+    }
+    .sinopse span{
+        text-align: center;
+    }
+}
+
